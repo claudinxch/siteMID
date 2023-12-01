@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/favicon-16x16.png" type="image/x-icon">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="imgs/MIDpentagonorea.png" alt="logo">
+        <div class="search-box">
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Pesquise um produto" style="background-color: rgb(234, 92, 31);" autocomplete="off">
+                <button class="fa-solid fa-magnifying-glass" style="height: 35px;"></button>
+            </div>
+            <div class="result-box">
+                <ul>
+                    <li>Cimentos</li>
+                    <li>Pisos</li>
+                    <li>Tintas</li>
+                    <li>Canos</li>
+                    <li>Ferragens</li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="#"><i class="fa-solid fa-location-dot" style="width: 20px;"></i>Sua localização</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Entrar</a></li>
+                <li><a href="#" class="cta"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="titulo-orientador">
+            <ul class="nav-main">
+                <li onclick="abrirDepartamentos()"><a href="#"><button class="b1"><i class="fa-solid fa-bars"></i></button>Todos os departamentos</a></li>
+                <li><a href="#">Cimentos</a></li>
+                <li><a href="#">Pisos</a></li>
+                <li><a href="#">Tintas</a></li>
+                <li><a href="#">Materiais de Construção</a></li>
+                <li><a href="#">Materiais Hidráulicos</a></li>
+                <li><a href="#">Ferragens</a></li>
+            </ul>
+        </div>
+        <div class="main-page">
+            <div class="left_column" style="position: relative; top: 0px; color: black;">
+                 <ul class="lista_specs">
+                    <li><a class="specs" href="#" title="Cimentos">Cimentos<span></span></a></li> 
+                    <li><a class="specs" href="#" title="Azulejos">Pisos<span></span></a></li> 
+                    <li><a class="specs" href="#" title="Areia">Tintas<span></span></a></li> 
+                    <li><a class="specs" href="#" title="Tijolos">Materiais de Construção<span></span></a></li> 
+                    <li><a class="specs" href="#" title="Pedra">Materiais Hidráulicos<span></span></a></li> 
+                    <li><a class="specs" href="#" title="Argamassa">Ferragens<span></span></a></li>
+                </ul>
+            </div> 
+            <div class="products">
+                <div class="card">
+                    <div class="img"><img src="imgs/cimento1.png" alt=""></div>
+                    <div class="desc">CP II-E-32</div>
+                    <div class="title">Cimento TUPI</div>
+                    <div class="store">Loja: Chatuba - Nova iguaçu</div>
+                    <div class="box">
+                        <div class="price">R$50</div>
+                        <button class="btn">Compre Agora</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="imgs/cimento1.png" alt=""></div>
+                    <div class="desc">CP II-E-32</div>
+                    <div class="title">Cimento TUPI</div>
+                    <div class="store">Loja: Chatuba - Dutra</div>
+                    <div class="box">
+                        <div class="price">R$45</div>
+                        <button class="btn">Compre Agora</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="imgs/cimento1.png" alt=""></div>
+                    <div class="desc">CP II-E-32</div>
+                    <div class="title">Cimento TUPI</div>
+                    <div class="store">Loja: Leroy Merlin - Bangu</div>
+                    <div class="box">
+                        <div class="price">R$56,70</div>
+                        <button class="btn">Compre Agora</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="imgs/cimento1.png" alt=""></div>
+                    <div class="desc">CP II-E-32</div>
+                    <div class="title">Cimento TUPI</div>
+                    <div class="store">Loja: Chatuba</div>
+                    <div class="box">
+                        <div class="price">R$50</div>
+                        <button class="btn">Compre Agora</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="imgs/cimento1.png" alt=""></div>
+                    <div class="desc">CP II-E-32</div>
+                    <div class="title">Cimento TUPI</div>
+                    <div class="store">Loja: Chatuba</div>
+                    <div class="box">
+                        <div class="price">R$50</div>
+                        <button class="btn">Compre Agora</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="imgs/cimento1.png" alt=""></div>
+                    <div class="desc">CP II-E-32</div>
+                    <div class="title">Cimento TUPI</div>
+                    <div class="store">Loja: Chatuba</div>
+                    <div class="box">
+                        <div class="price">R$50</div>
+                        <button class="btn">Compre Agora</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="imgs/cimento1.png" alt=""></div>
+                    <div class="desc">CP II-E-32</div>
+                    <div class="title">Cimento TUPI</div>
+                    <div class="store">Loja: Chatuba</div>
+                    <div class="box">
+                        <div class="price">R$50</div>
+                        <button class="btn">Compre Agora</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="imgs/cimento1.png" alt=""></div>
+                    <div class="desc">CP II-E-32</div>
+                    <div class="title">Cimento TUPI</div>
+                    <div class="store">Loja: Chatuba</div>
+                    <div class="box">
+                        <div class="price">R$50</div>
+                        <button class="btn">Compre Agora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <footer>
+        <div class="footer-container">
+            <div class="row_footer">
+                <div class="footer-col">
+                    <h1>site</h1>
+                    <ul>
+                        <li><a href="#">sobre nós</a></li>
+                        <li><a href="#">nossos serviços</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h1>dúvidas</h1>
+                    <ul>
+                        <li><a href="#">dúvidas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h1>departamentos</h1>
+                    <ul>
+                        <li><a href="#">cimentos</a></li>
+                        <li><a href="#">pisos</a></li>
+                        <li><a href="#">tintas</a></li>
+                        <li><a href="#">materiais de construção</a></li>
+                        <li><a href="#">materiais hidráulicos</a></li>
+                        <li><a href="#">ferragens</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h1>redes sociais</h1>
+                    <div class="socials">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>      
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

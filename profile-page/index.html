@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../home-page/imgs/favicon-16x16.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <title>Profile Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <a href="../home-page/index.html"><img src="MIDpentagonorea.png" alt="" class="logo" /></a>
+        </h1>
+        <ul>
+            <li><a href="#"><i class="bi bi-arrow-left"></i></a></li>
+            <li><a href="#"><i class="bi bi-person-circle"></i></a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <div class="options">
+                <div class="profile-photo">
+                    <i class="bi bi-person-circle"></i>
+                    <p><strong>Nome da loja</strong></p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#"><i class="bi bi-house-door"></i>Menu inicial</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="bi bi-bag"></i>Meus produtos</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="bi bi-shop"></i>Minha loja</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="bi bi-arrow-bar-left"></i>Sair</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="my-profile">
+                <div class="profile">
+                    <h1><i class="bi bi-person-circle"></i>MEU PERFIL</h1><p>Editar e alterar dados do perfil</p>
+                </div>
+                <h1 class="dados">Dados do cadastro</h1>
+                <div class="profile-components">
+                    <div class="photo">
+                        <figure>
+                            <img src="avatar.png" alt="">
+                            <figcaption>Arquivo .png ou .jpg</figcaption>
+                        </figure>
+                    </div>
+                    <form method="post" action="#" class="form-register">
+                        <div class="input-box">
+                            <label for="razao">Razão Social</label>
+                            <input id="razao" type="text" name="razao" placeholder="Razão Social" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="nome">Nome Fantasia</label>
+                            <input id="nome" type="text" name="nome" placeholder="Nome Fantasia" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="cnpj">CNPJ</label>
+                            <input id="cnpj" type="text" name="cnpj" placeholder="CNPJ" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="telefone">Telefone (DDD)</label>
+                            <input id="telefone" type="text" name="telefone" placeholder="Telefone" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="site">Site</label>
+                            <input id="site" type="text" name="site" placeholder="Site" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="address">Endereço</label>
+                            <input id="address" type="text" name="address" placeholder="Endereço" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="city">Cidade</label>
+                            <input id="city" type="text" name="city" placeholder="Cidade" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="bairro">Bairro</label>
+                            <input id="bairro" type="text" name="bairro" placeholder="Bairro" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="uf">UF</label>
+                            <input id="uf" type="text" name="uf" placeholder="UF" required>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="cep">CEP</label>
+                            <input id="cep" type="text" name="cep" placeholder="CEP" required>
+                        </div>
+
+                        <input type="submit" value="Salvar" id="submit">
+
+                    </form>
+                </div>      
+                <div class="personal-data">
+                    <h1>Dados Pessoais</h1>
+                </div>
+                <form method="post" action="#" class="form-register personal-data-form">
+                    <div class="input-box">
+                        <label for="name">Nome</label>
+                        <input id="name" type="text" name="name" placeholder="Nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cpf">CPF</label>
+                        <input id="cpf" type="text" name="cpf" placeholder="CPF" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="rg">RG</label>
+                        <input id="rg" type="text" name="rg" placeholder="RG" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="E-mail" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="cargo">Cargo</label>
+                        <input id="cargo" type="text" name="cargo" placeholder="Cargo" required>
+                    </div>
+                    
+                    <!--<div class="input-box">
+                        <label for="telefone">Telefone (DDD)</label>
+                        <input id="telefone" type="text" name="telefone" placeholder="Telefone" required>
+                    </div>-->
+
+                    <div class="input-box">
+                        <label for="date">Data de nascimento</label>
+                        <input id="date" type="date" name="date" required>
+                    </div>
+                    <input type="submit" value="Salvar" id="submit">
+
+                </form>  
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h1>site</h1>
+                    <ul>
+                        <li><a href="#">sobre nós</a></li>
+                        <li><a href="#">nossos serviços</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h1>dúvidas</h1>
+                    <ul>
+                        <li><a href="#">dúvidas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h1>departamentos</h1>
+                    <ul>
+                        <li><a href="#">cimentos</a></li>
+                        <li><a href="#">pisos</a></li>
+                        <li><a href="#">tintas</a></li>
+                        <li><a href="#">materiais de construção</a></li>
+                        <li><a href="#">materiais hidráulicos</a></li>
+                        <li><a href="#">ferragens</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h1>redes sociais</h1>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
