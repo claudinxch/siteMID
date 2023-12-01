@@ -24,6 +24,5 @@
             showImage(currentIndex);
         });
 
-        // Mostrar a primeira imagem inicialmente
         showImage(currentIndex);
     });
